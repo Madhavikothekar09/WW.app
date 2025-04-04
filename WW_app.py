@@ -763,7 +763,7 @@ def main():
                     reset_button = st.button("Reset")
                     if reset_button:
                         reset_state()
-                        st.experimental_user()
+                        st.experimental_rerun()
 
 
 if __name__ == "__main__":
